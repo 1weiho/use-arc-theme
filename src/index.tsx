@@ -42,7 +42,7 @@ const useArcTheme = () => {
   };
 
   return {
-    arcTheme,
+    ...arcTheme,
   };
 };
 

@@ -6,7 +6,7 @@ export default {
 };
 
 export const ArcTheme = () => {
-  const { arcTheme } = useArcTheme();
+  const arcTheme = useArcTheme();
   return (
     <div
       style={{
