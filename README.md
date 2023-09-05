@@ -6,19 +6,19 @@
 
 ## Installation
 
-To get started with arc-theme, you need to install it into your project using npm:
+To get started with `use-arc-theme`, you need to install it into your project using npm:
 
 ```bash
-npm i arc-theme
+npm i use-arc-theme
 ```
 
 ## Usage
 
-Once arc-theme is installed, you can use the Arc browser theme's colors in your project. Here's an example of how to do it:
+Once `use-arc-theme` is installed, you can use the Arc browser theme's colors in your project. Here's an example of how to do it:
 
 ```jsx
 import React from "react";
-import { useArcTheme } from "arc-theme";
+import { useArcTheme } from "use-arc-theme";
 
 export const Page = () => {
   const { background, title } = useArcTheme();

@@ -1,5 +1,5 @@
 {
-  "name": "arc-theme",
+  "name": "use-arc-theme",
   "version": "0.0.1",
   "description": "A React hook to get Arc browser theme's color.",
   "main": "dist/index.js",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidho0403/arc-theme.git"
+    "url": "git+https://github.com/davidho0403/use-arc-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/davidho0403/arc-theme/issues"
+    "url": "https://github.com/davidho0403/use-arc-theme/issues"
   },
   "files": [
     "dist"

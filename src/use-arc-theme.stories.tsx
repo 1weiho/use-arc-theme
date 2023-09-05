@@ -2,10 +2,10 @@ import React from "react";
 import { useArcTheme } from ".";
 
 export default {
-  title: "Arc Theme",
+  title: "Use Arc Theme",
 };
 
-export const ArcTheme = () => {
+export const UseArcTheme = () => {
   const arcTheme = useArcTheme();
   return (
     <div
