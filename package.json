@@ -1,16 +1,30 @@
 {
   "name": "arc-theme",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A React hook to get Arc browser theme's color.",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsup",
     "format": "prettier --write .",
     "dev": "ladle serve"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "arc browser",
+    "theme"
+  ],
+  "author": "Ho Yi Wei <@davidho0403>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidho0403/arc-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidho0403/arc-theme/issues"
+  },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@ladle/react": "^2.17.2",
     "@types/react": "^18.2.21",
